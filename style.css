@@ -1,0 +1,30 @@
+tr ,td{
+    border: 1px solid black;
+  }
+
+table{
+  text-align: center;
+  margin: auto;
+}
+
+footer{
+  margin-top: 30px;
+}
+
+.div-bor{
+  padding: 25px;
+  border: none;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.div-bor:nth-child(odd){
+  background-color: rgb(210, 195, 176);
+}
+
+.div-bor:nth-child(even){
+  background-color:rgb(196, 223, 224);
+}
+
+
+
